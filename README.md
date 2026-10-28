@@ -2,45 +2,65 @@
 
 **Computer Engineering | Embedded Systems | Electronics | Software Development**
 
-Hi, I'm Victor. I'm a Computer Engineering student at Brigham Young University–Idaho with an interest in designing, building, and testing systems that bring hardware and software together.
+Hi, I'm Victor, a Computer Engineering student at Brigham Young University–Idaho. I enjoy designing, building, programming, and testing electronic systems, especially projects that bring hardware and software together.
 
-Most of my personal projects start with an engineering problem or something I want to understand better. I develop the hardware, firmware, and supporting software, then document the results. My work ranges from handheld instruments and wireless tools to sensor systems, electronic experiments, and data visualization.
+My personal work includes embedded instruments, wireless diagnostic tools, sensor systems, high-voltage electronics, and desktop applications. I focus on learning through hands-on design, measurement, debugging, and documentation.
 
-I also have R&D experience developing and debugging embedded firmware for PIC microcontrollers, including serial communication and hardware testing.
+I also have industry R&D experience with embedded C firmware, PIC microcontrollers, serial interfaces, and hardware troubleshooting.
 
 ## Projects
 
-### Embedded Systems & Hardware
+### Embedded Systems & Instrumentation
 
-- **[GeoTracker v1.0](https://github.com/VictorGranado/GeoTracker-v1.0)** — ESP32 handheld GPS tracker with navigation, environmental sensing, and field-data logging.
-- **[NetViewer v1.0](https://github.com/VictorGranado/NetViewer-v1.0)** — Portable ESP32 wireless utility console for Wi-Fi diagnostics, BLE scanning, and local web tools.
-- **[Signal Scanner](https://github.com/VictorGranado/Signal-Scanner)** — Handheld wireless scanner and electrical measurement tool with a dual-display interface.
-- **[M.S.E.R. v2.0](https://github.com/VictorGranado/M.S.E.R-v2.0)** — Multi-Sensor Environmental Reader built around an ESP32, with environmental sensors, BLE connectivity, and data logging.
-- **[Lab Data Monitoring Station](https://github.com/VictorGranado/Lab-Data-Monitoring-Station)** — Portable monitoring system for gas and ambient conditions, with alarms and wireless connectivity.
-- **[UI-MT (Universal Interface Multi-Tool)](https://github.com/VictorGranado/UI-MT_redefined)** *(in development)* — Handheld ESP32 terminal intended for logging, wireless tools, serial communication, GPIO diagnostics, and signal generation.
+- **[GeoTracker v1.0](https://github.com/VictorGranado/GeoTracker-v1.0)** — ESP32-based handheld GPS and field-data instrument with navigation, compass integration, and data logging.
+- **[NetViewer v1.0](https://github.com/VictorGranado/NetViewer-v1.0)** — Handheld ESP32 utility console featuring Wi-Fi and BLE diagnostics, signal monitoring, and web-based tools.
+- **[Signal Scanner](https://github.com/VictorGranado/Signal-Scanner)** — Portable dual-display ESP32 tool for wireless scanning and electrical measurements.
+- **[M.S.E.R. v2.0](https://github.com/VictorGranado/M.S.E.R-v2.0)** — Multi-sensor environmental reader with an ESP32, environmental sensing, wireless connectivity, and logging.
+- **[Lab Data Monitoring Station](https://github.com/VictorGranado/Lab-Data-Monitoring-Station)** — Portable environmental and gas-monitoring system with multiple sensors, local displays, and alerts.
+- **STM32 Environmental Monitor** — NUCLEO-L476RG sensor system combining temperature, humidity, pressure, light, and magnetic-heading measurements on an I²C LCD interface.
+- **[UI-MT (Universal Interface Multi-Tool)](https://github.com/VictorGranado/UI-MT_redefined)** *(in development)* — ESP32 handheld interface for logging, Wi-Fi/BLE tools, I²C and UART utilities, GPIO diagnostics, and waveform generation.
+- **Pocket-Boy Plus** *(prototype)* — ESP32 handheld gaming device with an ILI9341 TFT display, physical buttons, buzzer, and battery monitoring.
+- **Pocket-Boy** — Earlier compact OLED-based handheld gaming project.
 
-### Electronics & Instrumentation
+### Electronics & Experimental Hardware
 
-- **[Cockcroft–Walton Voltage Multiplier](https://github.com/VictorGranado/CockCroft-Walton-Voltage-Multiplier)** — Experimental 36-stage differential high-voltage multiplier for studying corona, electric fields, and multiplier behavior.
+- **[Cockcroft–Walton Voltage Multiplier](https://github.com/VictorGranado/CockCroft-Walton-Voltage-Multiplier)** — High-voltage multiplier project exploring electric fields, corona discharge, and voltage multiplication.
+- **Tesla Coil** — Built and tested a resonant high-voltage demonstration system with a wound secondary coil, spherical top-load, and driver electronics.
 
-### Software & Data Visualization
+### Software & Data Analysis
 
-- **[GeoTracker Studio v1.0](https://github.com/VictorGranado/GeoTracker-Studio-V1.0)** — Python desktop application for reviewing logged sensor data, analyzing GPS routes, and exporting KML/GPX files.
-- **[Multivariable Calculus Toolkit](https://github.com/VictorGranado/Math-215-Multivariable-Calculus-Toolkit)** — Interactive learning and visualization software for vectors, calculus, optimization, and integration.
+- **[GeoTracker Studio v1.0](https://github.com/VictorGranado/GeoTracker-Studio-V1.0)** — Python desktop tool for importing field logs, visualizing GPS routes and sensor data, analyzing sessions, and exporting KML/GPX files.
+- **[Multivariable Calculus Toolkit](https://github.com/VictorGranado/Math-215-Multivariable-Calculus-Toolkit)** — Interactive software for exploring vectors, multivariable calculus, optimization, and related visualizations.
 
-### Current Engineering Work
+### Current Engineering Development
 
-- **Drone Flight Controller (senior project)** — Research and design toward custom PCB hardware compatible with the PX4 flight-control ecosystem.
-- **RF Spectrum Analyzer** — A double-conversion, 10–1000 MHz instrument design involving custom RF/IF electronics, digital control, and spectrum visualization.
+- **Drone Flight Controller (senior project)** *(in progress)* — Team project to develop custom flight-controller PCB hardware using the PX4 ecosystem as a functional reference, supported by hardware analysis and bench testing.
+- **RF Spectrum Analyzer v1.0** *(in design)* — 10–1000 MHz double-conversion superheterodyne instrument with custom RF/IF circuitry, sweep control, and spectrum display.
 
-## Technical Background
+<details>
+<summary><strong>Additional Experimental Builds</strong></summary>
+
+- **Final-Sun MK1** — Independently designed electromechanical prototype integrating fuel control, electrical ignition, a custom enclosure, and thermal shielding.
+- **Pocket Taser v3.0** — Compact high-voltage experimental device developed through multiple enclosure revisions.
+
+</details>
+
+*Projects without repository links are included as part of my engineering history; public documentation is not linked here yet.*
+
+## Technical Skills
 
 - **Programming:** C, C++, Python
 - **Microcontrollers:** ESP32, STM32, PIC
-- **Interfaces & connectivity:** I²C, SPI, UART, Wi-Fi, BLE
-- **Engineering:** Embedded firmware, PCB design, sensor integration, electronic instrumentation, testing, and debugging
-- **Tools:** STM32CubeIDE, MPLAB X, KiCad, Git, oscilloscopes, and logic analyzers
+- **Communication:** I²C, SPI, UART, RS-232, Wi-Fi, Bluetooth Low Energy
+- **Hardware:** Sensor integration, analog/digital electronics, embedded instrumentation, PCB design, prototyping, debugging
+- **Tools:** KiCad, STM32CubeIDE, MPLAB X, Git, oscilloscopes, logic analyzers
+- **Software:** Embedded firmware, desktop applications, data logging and visualization
+
+## Professional Experience
+
+**Research & Development — Embedded Systems**  
+Experience writing and debugging embedded C firmware, working with PIC microcontrollers and serial interfaces, and validating hardware with test equipment.
 
 ---
 
-Explore more of my work in my [GitHub repositories](https://github.com/VictorGranado?tab=repositories).
+See my [repositories](https://github.com/VictorGranado?tab=repositories) for available source code, documentation, and project details.
