@@ -20,7 +20,7 @@ I also have industry R&D experience with embedded C firmware, PIC microcontrolle
 - **STM32 Environmental Monitor** — NUCLEO-L476RG sensor system combining temperature, humidity, pressure, light, and magnetic-heading measurements on an I²C LCD interface.
 - **[UI-MT (Universal Interface Multi-Tool)](https://github.com/VictorGranado/UI-MT_redefined)** *(in development)* — ESP32 handheld interface for logging, Wi-Fi/BLE tools, I²C and UART utilities, GPIO diagnostics, and waveform generation.
 - **Pocket-Boy Plus** *(prototype)* — ESP32 handheld gaming device with an ILI9341 TFT display, physical buttons, buzzer, and battery monitoring.
-- **Pocket-Boy** — Earlier compact OLED-based handheld gaming project.
+- **[Pocket-Boy] (https://github.com/VictorGranado/POCKET-BOY)** — Earlier compact OLED-based handheld gaming project.
 
 ### Electronics & Experimental Hardware
 
